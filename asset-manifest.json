@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/FavSeries/static/css/main.df13805a.chunk.css",
-    "main.js": "/FavSeries/static/js/main.4387a685.chunk.js",
-    "main.js.map": "/FavSeries/static/js/main.4387a685.chunk.js.map",
+    "main.css": "/FavSeries/static/css/main.8cbd65eb.chunk.css",
+    "main.js": "/FavSeries/static/js/main.f9abb2a5.chunk.js",
+    "main.js.map": "/FavSeries/static/js/main.f9abb2a5.chunk.js.map",
     "runtime-main.js": "/FavSeries/static/js/runtime-main.b4c42c7e.js",
     "runtime-main.js.map": "/FavSeries/static/js/runtime-main.b4c42c7e.js.map",
     "static/js/2.2abec87c.chunk.js": "/FavSeries/static/js/2.2abec87c.chunk.js",
     "static/js/2.2abec87c.chunk.js.map": "/FavSeries/static/js/2.2abec87c.chunk.js.map",
     "index.html": "/FavSeries/index.html",
-    "static/css/main.df13805a.chunk.css.map": "/FavSeries/static/css/main.df13805a.chunk.css.map",
+    "static/css/main.8cbd65eb.chunk.css.map": "/FavSeries/static/css/main.8cbd65eb.chunk.css.map",
     "static/js/2.2abec87c.chunk.js.LICENSE.txt": "/FavSeries/static/js/2.2abec87c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b4c42c7e.js",
     "static/js/2.2abec87c.chunk.js",
-    "static/css/main.df13805a.chunk.css",
-    "static/js/main.4387a685.chunk.js"
+    "static/css/main.8cbd65eb.chunk.css",
+    "static/js/main.f9abb2a5.chunk.js"
   ]
 }
