@@ -15,7 +15,7 @@ const Animedata = [
     },
     {
         sname: "My Hero Academia",
-        imgsrc: "https://m.media-amazon.com/images/M/MV5BNmQzYmE2MGEtZjk4YS00YmVjLWEwZWMtODRkMjc4MTM5N2I3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        imgsrc: "https://images-na.ssl-images-amazon.com/images/I/91IyDL9FwHL._SL1500_.jpg",
         genre: "Genre: Adventure, fantasy, superhero",
         link: "https://gogoanime.so/category/boku-no-hero-academia-dub"
 

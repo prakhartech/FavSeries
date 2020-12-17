@@ -23,18 +23,25 @@ body{
 }
 
 .cards{
-    width: 30%;
-    height: 330px;
+    width: 18%;
+    height: 410px;
     border-radius: 4%;
     background-color: white;
-    border: 0.5px solid red;
-    margin: 20px;
+    border: 1px solid #db6400;
+    margin: 30px;
     
 }
 
+@media only screen and (max-width: 769px){
+    .cards{
+        width: 30%;
+        margin: 10px;
+    }
+}
+
 .cards .card img{
-    width: 150px;
-    height: auto;
+    width: 100%;
+    height: 250px;
     border-top-left-radius: 4%;
     border-top-right-radius: 4%;
 }
