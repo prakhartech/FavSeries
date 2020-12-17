@@ -7,7 +7,7 @@ import './index.css';
 
 ReactDOM.render(
   <>
-  <h1 className="toptitle">My favourite Animes</h1>
+  <h1 className="toptitle">List of Top Animes</h1>
   <div className="display">
   <Card
    imgsrc = {Animedata[0].imgsrc}

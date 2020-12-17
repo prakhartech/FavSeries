@@ -113,6 +113,11 @@ body{
 }
 
 @media only screen and (max-width: 524px){
+
+    .cards{
+        width: 45%;
+        margin: 5px;
+    }
     .cards .card .cardinfo .genre{
         font-size: 12px;
     }
