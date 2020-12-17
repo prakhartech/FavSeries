@@ -65,35 +65,20 @@ body{
     margin-top: 8px;
 }
 
-
-
-@media only screen and (max-width: 769px){
-    .cards{
-        width: 30%;
-        margin: 10px;
-    }
-}
-
-
-
-
-
-
 .btn-hover {
     width: 150px;
     font-size: 18px;
     font-weight: 800;
     color: #fff;
     cursor: pointer;
-    margin: 15px;
+    margin-top: 15px;
     height: 40px;
     padding-bottom: 5px;
     text-align:center;
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
+    
     transition: all .4s ease-in-out;
     background-image: linear-gradient(to right, #151616, #494949, #6e6e6e, #aeb1ae);
     font-family: 'Texturina', serif;
@@ -110,4 +95,49 @@ body{
 .btn-hover:focus {
     outline: none;
 }
+
+
+
+
+@media only screen and (max-width: 769px){
+    .cards{
+        width: 30%;
+        margin: 10px;
+    }
+    .toptitle{
+        font-size: 35px;
+    }
+    .cards .card .cardinfo .serialname{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 524px){
+    .cards .card .cardinfo .genre{
+        font-size: 12px;
+    }
+
+    .btn-hover{
+        width: 90% ;
+        font-size: 15px ;
+        height: 30px ;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .cards{
+        height: 340px;
+    }
+
+    .cards .card img{
+        height: 200px;
+    }
+
+}
+
+
+
+
+
+
 
