@@ -2,16 +2,23 @@ body{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(5, 5, 5);
 }
 
 .toptitle{
-    color: royalblue;
+    color: rgb(230, 47, 15);
     width: 100%;
-    height: 60px;
-    background-color: silver;
+    height: 70px;
+    background: radial-gradient(#f0f0f0, #0e0d0d);
     margin: 0;
     text-align: center;
+    line-height: 60px;
+    word-spacing: 4px;
+    font-size: 50px;
+    text-shadow: 4px 4px rgba(218, 68, 9, 0.2);
+    box-shadow: 10px 5px 5px rgb(26, 25, 25);
+    font-family: 'Texturina', serif;
+    font-weight: 400;
 }
 
 .display{
@@ -25,12 +32,40 @@ body{
 .cards{
     width: 18%;
     height: 410px;
-    border-radius: 4%;
+    border-radius: 3.7%;
     background-color: white;
     border: 1px solid #db6400;
     margin: 30px;
     
 }
+
+
+.cards .card img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 4.1%;
+    border-top-right-radius: 4.1%;
+}
+
+.cards .card .cardinfo{
+    text-align: center;
+    color: red;
+    
+   
+}
+.cards .card .cardinfo .serialname{
+    margin: 5px;
+    font-size: 22px;
+}
+
+.cards .card .cardinfo .genre{
+    font-size: 14px;
+    color: gray;
+    height: 20px;
+    margin-top: 8px;
+}
+
+
 
 @media only screen and (max-width: 769px){
     .cards{
@@ -39,27 +74,40 @@ body{
     }
 }
 
-.cards .card img{
-    width: 100%;
-    height: 250px;
-    border-top-left-radius: 4%;
-    border-top-right-radius: 4%;
+
+
+
+
+
+.btn-hover {
+    width: 150px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    cursor: pointer;
+    margin: 15px;
+    height: 40px;
+    padding-bottom: 5px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #151616, #494949, #6e6e6e, #aeb1ae);
+    font-family: 'Texturina', serif;
+    
 }
 
-.cards .card .cardinfo{
-    text-align: center;
-    color: red;
-   
-}
-.cards .card .cardinfo .serialname{
-    margin: 3px;
+.btn-hover:hover {
+    background-position: 30% 0;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 4px 15px 0 rgba(26, 29, 29, 0.75);
+    color: rgb(255, 115, 0);
 }
 
-.cards .card .cardinfo .genre{
-    font-size: 14px;
-    color: gray;
+.btn-hover:focus {
+    outline: none;
 }
 
-.cards .card .cardinfo button{
-    margin-top: 15px;
-}
