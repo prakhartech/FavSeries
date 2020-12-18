@@ -8,7 +8,7 @@ function Card(props){
             <div className="card">
                 <img src = {props.imgsrc} alt="Naruto" className="card_img" />
                 <div className="cardinfo">
-                    <h3 className="serialname">{props.sname}</h3>
+                    <div className="serialname"><h3>{props.sname}</h3></div>
                     <div className="genre"><span>{props.genre}</span></div>
                     <br/>
                     <a href={props.link} target ="blank">
